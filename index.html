@@ -2,13 +2,23 @@
 <html lang="en">
 <head>
 
+    <nav style="body">
+       
+        <p><a href="home">Home</a></p>
+        <p><a href="home">About</a></p>
+        <p><a href="work">Work</a></p>
+        <p><a href="resume">Resume</a></p>
+        <p> <a href="contact">Contacts</a></p>
+    </nav>
+
     <H1 style="top: auto;"> MY WEB DEVELOPMENT PROJECT</H1>
 
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >web developer</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>web developer</title>
     <link rel="icon" href="res/icon.jpg">
 
     
@@ -22,15 +32,10 @@
     
     
 
-    <ul>
-        <nav>
-        <li><a href="home">Home</a></li>
-        <li><a href="home">About</a></li>
-        <li><a href="work">Work</a></li>
-        <li><a href="resume">Resume</a></li>
-        <li><a href="contact">Contacts</a></li>
-       </nav>
-    </ul>
+    
+    
+    
+    
 
 
     
@@ -38,29 +43,39 @@
    
     <p><a href="homepage/home.html">visit our home page here</a></p> 
 
-    <section>
+    <section id="Man">
         <h1>About Toheeb</h1>
         <p style="font-size: 19px;">I am Toheeb, professional web developer with a long time experience in the field</p>
         <a href="About.html">Visit our about page here</a>
     </section>
 
-    <section>
-        <h2>Work</h2>
+    <section id="God">
+        <h2 id="orange">Work</h2>
         <p style="font-size: 19px;">We ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website's performance and capacity</p>
        <p><a href="workpage/work.html">visit our work page here</a> </p> 
 
         <br>
+
+    <div class="love">
+
+
+
       
 
         <img src="res/webdesign.jpg" width="502" height="343" alt="image">
         <img src="res/webdesign.jpg2.jpg" alt="image"> 
+        <img src="res/a.jpg" width="502"  height="343">
+        <img src="res/webdesign.jpg" width="502" height="343">
+
+    </div>
+
         <br>
        
     </section>
 
-    <section>
-         <h3 style="font-size: 20pt;">Resume</h3>
-        <p> Solution-driven web developer adept at contributing to highly collaborative work environment and finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, PHP and JavaScript. Good knowledge of the best practices for web design, user experience, and speed.</p>
+    <section id="love">
+         <h3 class="resume" style="font-size: 20pt;">Resume</h3>
+        <p class="paragraph"> Solution-driven web developer adept at contributing to highly collaborative work environment and finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, PHP and JavaScript. Good knowledge of the best practices for web design, user experience, and speed.</p>
         <p><a href="resumepage/resume.html">visit our work page here</a></p> 
     </section>
 
@@ -108,18 +123,19 @@
     <br>
 
 
-         <div>
-            <video 
+    <div class="cool">
+        <video 
             src="res/what-are-design-patterns.mp4" controls width="502" height="342">
-    
-            </video>
-        </div>
+        </video>                                   
+        <h1>About Toheeb</h1>
+        <p style="font-size: 19px;">I am Toheeb, professional web developer with a long time experience in the field</p>
+    </div>
 
         <div>
             <audio src="res/what-are-design-patterns.mp3" controls>
 
             </audio>
-        </div>
+    </div>
 
           
 </body>
@@ -127,7 +143,7 @@
 
 <section>
     
-<footer>
+<footer id="Woman">
     <p>Contact us </p>
     <p> <a href="Phone Number ">Phone Number: </a>08035278045</p>
     <p> <a href="Email">Email: </a>akegbeyaletoheeb27@gmail.com</p>
